@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # 1: Should install essential packages
-# Should install and setup i3-gaps
+# Should install and setup i3-gaps https://github.com/AkselTroan/Debian-Setup.git
 
 RED=$'\e[1;31m'
 GREEN=$'\e[1;32m'
@@ -14,7 +14,6 @@ cls='printf "\033c"'
 arrow=' ==> '
 newline=$'\n'
 
-s
 install_packages(){
 	while read -r line; do apt-get install $line; done < ./Resources/package_list.txt
 }
@@ -40,7 +39,8 @@ install_and_setup_i3_gaps(){
     
 	which git
     
-	if [$? -neq 0] then;
+	if [$? -neq 0] 
+	then
         exit
     
 	else
