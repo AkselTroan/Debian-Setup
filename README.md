@@ -1,4 +1,4 @@
 # Debian-Setup
 Sets up a fresh debian
 
-**WORK IN PROGRESS**
+**WORK IN PROGRESS. PUT ON HOLD DUE TO OTHER MORE IMPORTANT PROJECTS**
